@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>giving-mob</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-block">
+                <div class="header__top-actions">
+                    <button type="button" class="menu-btn btn-reset"><i class="header-menu icon-menu"></i></button>
+                    <div class="header__cart">
+                        <button type="button" class="cart-btn btn-reset"><i class="icon-cart"></i></button>
+                        <span class="header__cart-num">0</span>
+                    </div>
+                </div>
+                <div class="header__top-meta">
+                    <span class="header-meta">
+                        <span class="header-meta__label">Баланс:</span>
+                        <span class="header-meta__value" data-key="balance">12000</span>
+                    </span>
+                    <span class="header-meta">
+                        <span class="header-meta__label">ID</span>
+                        <span class="header-meta__value" data-key="user-id">4384734847</span>
+                    </span>
+                </div>
+            </div>
+            <!-- header menu -->
+            <div class="header__menu header__menu--opened1">
+                <div class="menu__logo">
+                    <a href="#"><img src="assets/icons/logo.svg" alt="logo" class="menu__logo-img"></a>
+                </div>
+
+                <div class="menu__languages">
+                    <button class="menu__lang-btn"><img src="assets/img/am.png" alt="Armenian"></button>
+                    <button class="menu__lang-btn"><img src="assets/img/ru.png" alt="Russian"></button>
+                    <button class="menu__lang-btn"><img src="assets/img/us.png" alt="English"></button>
+                </div>
+
+                <ul class="menu__list">
+                    <li><a href="#" class="menu__item">Служба качества</a></li>
+                    <li><a href="#" class="menu__item">Пользовательское соглашение</a></li>
+                    <li><a href="#" class="menu__item">Партнер</a></li>
+                    <li><a href="#" class="menu__item">Типография</a></li>
+                    <li><a href="#" class="menu__item">Дизайнер</a></li>
+                    <li><a href="#" class="menu__item">Обратная связь</a></li>
+                </ul>
+            </div>
+            <!-- header menu end -->
+
+        </div>
+        <div class="header__intro">
+            <div class="header__intro-logo">
+                <a href="#"><img src="assets/icons/logo.svg" alt="logo"></a>
+            </div>
+            <div class="header__intro-action">
+                <button type="button" class="header__intro-btn btn-reset">Ереван <i
+                        class="icon-cart icon-arrow-up"></i></button>
+                <p class="header__intro-desc">Выберите свой город для отображения акутальной стоимости</p>
+                <!-- location list -->
+                <div class="location location--opened1">
+                    <div class="location__inner">
+                        <ul class="location__list">
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Ереван</span>
+                                    <input type="radio" name="city" value="Yerevan" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Гюмри</span>
+                                    <input type="radio" name="city" value="Gyumri" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Ванадзор</span>
+                                    <input type="radio" name="city" value="Vanadzor" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Раздан</span>
+                                    <input type="radio" name="city" value="Razdan" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Эчмиадзин (Вагаршапат)</span>
+                                    <input type="radio" name="city" value="Echmiadzin" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Goris" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Sevan" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Armavir" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Artashat" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Alaverdi" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Kapan" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Dilijan" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Ijevan" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">Горис</span>
+                                    <input type="radio" name="city" value="Charentsavan" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                            <li class="location__item">
+                                <label class="location__label">
+                                    <span class="location__city">last</span>
+                                    <input type="radio" name="city" value="Martuni" class="location__radio" />
+                                    <span class="custom__radio"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- location list end -->
+            </div>
+        </div>
+        <!-- basket block -->
+        <div class="basket basket--opened1">
+            <div class="basket__header">
+                <div class="basket__logo">
+                    <img src="assets/icons/logo.svg" alt="logo" class="menu__logo-img">
+                </div>
+                <div class="basket__summary">
+                    <div class="basket__count">
+                        <i class="icon-cart"></i>
+                        <span class="basket__count-value">2</span>
+                    </div>
+                    <div class="basket__total"><span class="basket__total-value">2280</span>р</div>
+                </div>
+            </div>
+
+            <div class="basket__body">
+                <div class="basket__item">
+                    <div class="basket__info">
+                        <div>
+                            <b>заказа N <span class="basket__order-id">556787</span></b>
+                            <span class="basket__order-date">| 06.03.2025</span>
+                        </div>
+                        <div>
+                            <span class="basket__order-time">11:20–13:27</span>
+                            <span class="basket__order-price">| <b>1640р</b></span>
+                        </div>
+                    </div>
+                    <button class="btn-main btn-reset">ПОВТОРИТЬ ЗАКАЗ</button>
+                </div>
+
+                <div class="basket__item">
+                    <div class="basket__info">
+                        <div>
+                            <b>заказа N <span class="basket__order-id">556788</span></b>
+                            <span class="basket__order-date">| 07.03.2025</span>
+                        </div>
+                        <div>
+                            <span class="basket__order-time">10:20–12:27</span>
+                            <span class="basket__order-price">| <b>640р</b></span>
+                        </div>
+                    </div>
+                    <button class="btn-main btn-reset">ПОВТОРИТЬ ЗАКАЗ</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- basket block end -->
+    </header>
+    <main class="container">
+        <h1 class="main-title centered">Визитки за 3 часа</h1>
+        <h2 class="main-subtitle centered">Давайте создавать вместе!</h2>
+
+        <!-- cards slider -->
+        <div class="card-slider-wrapper">
+
+            <div class="card-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/card-slider-img.jpg" alt="Template 1">
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <img src="assets/img/card-slider-img.jpg" alt="Template 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/card-slider-img.jpg" alt="Template 3">
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="card-slider-thumbs-wrapper">
+                <div class="card-slider-thumbs swiper">
+                    <div class="swiper-wrapper thumbs-block">
+                        <div class="swiper-slide">
+                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 3">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- arrows -->
+                <div class="thumbs-nav thumbs-prev">&#10094;</div>
+                <div class="thumbs-nav thumbs-next">&#10095;</div>
+            </div>
+
+            <div class="slides__view">
+                <div class="slides__view-block slides__front">
+                    <div class="slides__view-icon view-active">
+                    </div>
+                    <button type="button" class="btn-reset slides_view-front" id="slides_view-front">передняя</button>
+                </div>
+                <div class="slides__view-block slides__back">
+                    <div class="slides__view-icon">
+                    </div>
+                    <button type="button" class="btn-reset slides_view-front" id="slides_view-back">задняя</button>
+                </div>
+            </div>
+        </div>
+        <!-- cards slider end -->
+
+        <!-- order form -->
+        <form action="#" class="order-form">
+            <h2 class="section-title">Визитка</h2>
+            <div class="form-group with-toggle">
+                <div class="form-group-icon">
+                    <input type="text" placeholder="Название компании">
+                    <i class="icon-eye-blocked"></i>
+                </div>
+
+                <label class="toggle-wrap">
+                    <span>разрешить перенос слов</span>
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="form-group with-toggle">
+                <input type="text" placeholder="ФИО">
+                <label class="toggle-wrap">
+                    <span>разрешить перенос слов</span>
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="form-group with-toggle">
+                <input type="text" placeholder="Должность">
+                <label class="toggle-wrap">
+                    <span>разрешить перенос слов</span>
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="form-group with-icon">
+                <input type="text" placeholder="Телефон">
+                <i class="icon-eye-blocked"></i>
+            </div>
+
+            <div class="form-group with-icon">
+                <input type="text" placeholder="Телефон">
+                <i class="icon-eye-blocked"></i>
+            </div>
+
+            <div class="form-group with-icon">
+                <input type="email" placeholder="E-mail">
+                <i class="icon-eye-blocked"></i>
+            </div>
+
+            <div class="form-group with-icon">
+                <input type="text" placeholder="Web">
+                <i class="icon-eye-blocked"></i>
+            </div>
+
+            <div class="form-group with-icon">
+                <input type="text" placeholder="Адрес">
+                <i class="icon-eye-blocked"></i>
+            </div>
+
+            <div class="form-buttons">
+                <button type="button" class="btn-reset btn-rounded">Создать Qr-код</button>
+                <button type="button" class="btn-reset btn-rounded">Загрузить логотип</button>
+            </div>
+
+            <a href="#" class="form-link">стать консультантом</a>
+
+            <button type="button" class="btn-reset btn-main">ВЫБЕРИТЕ ПАРАМЕТР</button>
+        </form>
+        <!-- order form end-->
+    </main>
+</body>
+
+</html>

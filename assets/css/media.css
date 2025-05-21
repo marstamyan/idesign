@@ -1,0 +1,65 @@
+@media (min-width: 530px) {
+  .notify__block {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 1 1 calc(30% - 14px);
+  }
+
+  .header__intro-logo img {
+    width: 200px;
+  }
+
+  .btn-rounded {
+    max-width: 240px;
+  }
+
+  .btn-main {
+    height: 60px;
+  }
+
+  .order-form {
+    max-width: 440px;
+  }
+
+  .price-table__radio {
+    width: 24px;
+    height: 24px;
+  }
+
+  .price-table__radio:checked::before {
+    content: "";
+    position: absolute;
+    top: 3.6px;
+    left: 3.6px;
+    width: 14px;
+    height: 14px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .card {
+    flex: 1 1 calc(24% - 14px);
+  }
+
+  .header__intro-logo img {
+    width: 260px;
+  }
+
+  .btn-main {
+    font-weight: 500;
+  }
+
+  .btn-rounded {
+    max-width: 300px;
+  }
+
+  .notify__block {
+    max-width: 535px;
+  }
+}
