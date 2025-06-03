@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/new-style.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <title>giving-mob</title>
 </head>
@@ -232,129 +233,183 @@
     <main class="container">
         <h1 class="main-title centered">Визитки за 3 часа</h1>
         <h2 class="main-subtitle centered">Давайте создавать вместе!</h2>
-
-        <!-- cards slider -->
-        <div class="card-slider-wrapper">
-
-            <div class="card-slider swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 1">
+        <div class="direction-box">
+            <!-- cards slider -->
+            <div class="card-slider-wrapper">
+                <div class="card-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="demo__slide">
+                                <div class="demo__slide-left">
+                                    <div class="demo__logo"><img src="assets/img/id-logo.png" alt="logo"></div>
+                                    <div class="demo__company-name">Название компании</div>
+                                </div>
+                                <div class="demo__slide-right">
+                                    <div class="demo__person">
+                                        <div class="demo__name">ФИО</div>
+                                        <div class="demo__position">ДОЛЖНОСТЬ</div>
+                                    </div>
+                                    <div class="demo__info">
+                                        <div class="demo__contacts">
+                                            <div class="demo__phone">+374 0000000</div>
+                                            <div class="demo__phone">+374 0000000</div>
+                                            <div class="demo__email">E-mail</div>
+                                            <div class="demo__web">Web</div>
+                                            <div class="demo__address">Адрес</div>
+                                        </div>
+                                        <div class="demo__qr">
+                                            <img src="assets/img/id-logo.png" alt="QR-код" class="demo__qr-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 2">
+                </div>
+
+                <div class="card-slider-thumbs-wrapper">
+                    <div class="card-slider-thumbs swiper">
+                        <div class="swiper-wrapper thumbs-block">
+                            <div class="swiper-slide">
+                                <div class="demo__thumb">
+                                    <div class="demo__thumb-top">
+                                        <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png" alt="QR-код"
+                                                class="demo__qr-img"></div>
+                                        <div class="demo__thumb-company">Название компании</div>
+                                    </div>
+                                    <div class="demo__thumb-label">
+                                        <span class="visually-hidden">Label</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="demo__thumb">
+                                    <div class="demo__thumb-top">
+                                        <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png" alt="QR-код"
+                                                class="demo__qr-img"></div>
+                                        <div class="demo__thumb-company">Название компании</div>
+                                    </div>
+                                    <div class="demo__thumb-label">
+                                        <span class="visually-hidden">Label</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="demo__thumb">
+                                    <div class="demo__thumb-top">
+                                        <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png" alt="QR-код"
+                                                class="demo__qr-img"></div>
+                                        <div class="demo__thumb-company">Название компании</div>
+                                    </div>
+                                    <div class="demo__thumb-label">
+                                        <span class="visually-hidden">Label</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 3">
-                    </div> -->
+
+                    <!-- arrows -->
+                    <div class="thumbs-nav thumbs-prev">&#10094;</div>
+                    <div class="thumbs-nav thumbs-next">&#10095;</div>
+                </div>
+
+                <div class="slides__view">
+                    <div class="slides__view-block slides__front">
+                        <div class="slides__view-icon view-active">
+                        </div>
+                        <button type="button" class="btn-reset slides_view-front"
+                            id="slides_view-front">передняя</button>
+                    </div>
+                    <div class="slides__view-block slides__back">
+                        <div class="slides__view-icon">
+                        </div>
+                        <button type="button" class="btn-reset slides_view-front" id="slides_view-back">задняя</button>
+                    </div>
                 </div>
             </div>
+            <!-- cards slider end -->
 
-            <div class="card-slider-thumbs-wrapper">
-                <div class="card-slider-thumbs swiper">
-                    <div class="swiper-wrapper thumbs-block">
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 1">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 2">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 3">
-                        </div>
+            <!-- order form -->
+            <form action="#" class="order-form">
+                <h2 class="section-title">Визитка</h2>
+                <div class="form-group with-toggle">
+                    <div class="form-group-icon">
+                        <input type="text" placeholder="Название компании">
+                        <i class="icon-eye-blocked"></i>
                     </div>
+
+                    <label class="toggle-wrap">
+                        <span>разрешить перенос слов</span>
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
                 </div>
 
-                <!-- arrows -->
-                <div class="thumbs-nav thumbs-prev">&#10094;</div>
-                <div class="thumbs-nav thumbs-next">&#10095;</div>
-            </div>
-
-            <div class="slides__view">
-                <div class="slides__view-block slides__front">
-                    <div class="slides__view-icon view-active">
-                    </div>
-                    <button type="button" class="btn-reset slides_view-front" id="slides_view-front">передняя</button>
+                <div class="form-group with-toggle">
+                    <input type="text" placeholder="ФИО">
+                    <label class="toggle-wrap">
+                        <span>разрешить перенос слов</span>
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
                 </div>
-                <div class="slides__view-block slides__back">
-                    <div class="slides__view-icon">
-                    </div>
-                    <button type="button" class="btn-reset slides_view-front" id="slides_view-back">задняя</button>
-                </div>
-            </div>
-        </div>
-        <!-- cards slider end -->
 
-        <!-- order form -->
-        <form action="#" class="order-form">
-            <h2 class="section-title">Визитка</h2>
-            <div class="form-group with-toggle">
-                <div class="form-group-icon">
-                    <input type="text" placeholder="Название компании">
+                <div class="form-group with-toggle">
+                    <input type="text" placeholder="Должность">
+                    <label class="toggle-wrap">
+                        <span>разрешить перенос слов</span>
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="form-group with-icon">
+                    <input type="text" placeholder="Телефон">
                     <i class="icon-eye-blocked"></i>
                 </div>
 
-                <label class="toggle-wrap">
-                    <span>разрешить перенос слов</span>
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-            </div>
+                <div class="form-group with-icon">
+                    <input type="text" placeholder="Телефон">
+                    <i class="icon-eye-blocked"></i>
+                </div>
 
-            <div class="form-group with-toggle">
-                <input type="text" placeholder="ФИО">
-                <label class="toggle-wrap">
-                    <span>разрешить перенос слов</span>
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-            </div>
+                <div class="form-group with-icon">
+                    <input type="email" placeholder="E-mail">
+                    <i class="icon-eye-blocked"></i>
+                </div>
 
-            <div class="form-group with-toggle">
-                <input type="text" placeholder="Должность">
-                <label class="toggle-wrap">
-                    <span>разрешить перенос слов</span>
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
-            </div>
+                <div class="form-group with-icon">
+                    <input type="text" placeholder="Web">
+                    <i class="icon-eye-blocked"></i>
+                </div>
 
-            <div class="form-group with-icon">
-                <input type="text" placeholder="Телефон">
-                <i class="icon-eye-blocked"></i>
-            </div>
+                <div class="form-group with-icon">
+                    <input type="text" placeholder="Адрес">
+                    <i class="icon-eye-blocked"></i>
+                </div>
 
-            <div class="form-group with-icon">
-                <input type="text" placeholder="Телефон">
-                <i class="icon-eye-blocked"></i>
-            </div>
+                <div class="form-buttons">
+                    <button type="button" class="btn-reset btn-rounded">Создать Qr-код</button>
+                    <button type="button" class="btn-reset btn-rounded">Загрузить логотип</button>
+                </div>
 
-            <div class="form-group with-icon">
-                <input type="email" placeholder="E-mail">
-                <i class="icon-eye-blocked"></i>
-            </div>
+                <a href="#" class="form-link">стать консультантом</a>
 
-            <div class="form-group with-icon">
-                <input type="text" placeholder="Web">
-                <i class="icon-eye-blocked"></i>
-            </div>
-
-            <div class="form-group with-icon">
-                <input type="text" placeholder="Адрес">
-                <i class="icon-eye-blocked"></i>
-            </div>
-
-            <div class="form-buttons">
-                <button type="button" class="btn-reset btn-rounded">Создать Qr-код</button>
-                <button type="button" class="btn-reset btn-rounded">Загрузить логотип</button>
-            </div>
-
-            <a href="#" class="form-link">стать консультантом</a>
-
-            <button type="button" class="btn-reset btn-main">ВЫБЕРИТЕ ПАРАМЕТР</button>
-        </form>
-        <!-- order form end-->
+                <button type="button" class="btn-reset btn-main">ВЫБЕРИТЕ ПАРАМЕТР</button>
+            </form>
+            <!-- order form end-->
+        </div>
     </main>
+    <footer class="footer container">
+        <div class="footer-text">
+            <p><a href="#">Գաղտնիության քաղաքականություն</a> <a href="#">Պայմաններ և դրույթներ </a></p>
+            <p>2025 ID print Բոլոր իրավունքները պաշտպանված են։</p>
+        </div>
+        <div class="footer-logos">
+            <img src="assets/img/payment.png" alt="Mastercard">
+        </div>
+    </footer>
 </body>
 
 </html>

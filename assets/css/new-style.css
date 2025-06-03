@@ -1,0 +1,252 @@
+/* direction box */
+.direction-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.direction-box .card-slider-wrapper {
+  margin-block: 30px;
+}
+/* direction box */
+
+.check__form {
+  padding-block: 40px;
+  max-width: 355px;
+  margin-inline: auto;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  max-width: 355px;
+  margin-inline: auto;
+}
+
+.direction-box .inner-box.left-box {
+  order: 0;
+  margin-top: unset;
+}
+
+/* footer */
+.footer {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: var(--text-light);
+  padding-inline: 8px;
+  border-left: 2px solid var(--text-light);
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-text p {
+  margin: 2px 0;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-logos img {
+  height: 24px;
+}
+/* footer end */
+
+/* demo slide */
+.demo__slide {
+  display: flex;
+  width: 100%;
+  height: 224px;
+  border: 1px solid var(--text-dark);
+}
+
+.demo__slide-left {
+  flex: 0 0 40%;
+  background-color: var(--color-gray-light);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.demo__company-name {
+  font-size: clamp(0.75rem, 0.659rem + 0.39vw, 1rem);
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.demo__slide-right {
+  flex: 0 0 60%;
+  background-color: var(--color-gray);
+  color: var(--text-light);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #fffefe;
+}
+
+.demo__person {
+  text-align: center;
+}
+
+.demo__name {
+  font-size: clamp(1.5rem, 1.454rem + 0.2vw, 1.625rem);
+  font-weight: 500;
+  border-bottom: 2px solid var(--color-red);
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.demo__position {
+  font-size: clamp(0.875rem, 0.829rem + 0.2vw, 1rem);
+  margin-top: 4px;
+  letter-spacing: 1px;
+  color: var(--color-gray-light);
+}
+
+.demo__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.demo__contacts {
+  font-size: clamp(0.75rem, 0.704rem + 0.2vw, 0.875rem);
+  line-height: 1.6;
+}
+
+.demo__qr {
+  width: 80px;
+  height: 80px;
+}
+
+.demo__qr-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.demo__thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 84px;
+  height: 55px;
+  background-color: var(--color-gray-light);
+  font-family: var(--font-family);
+  text-align: center;
+  position: relative;
+}
+
+.demo__thumb-top {
+  padding: 2px;
+}
+
+.demo__thumb-logo img {
+  width: 40px;
+}
+
+.demo__thumb-company {
+  font-weight: 500;
+  font-size: clamp(0.313rem, 0.221rem + 0.39vw, 0.563rem);
+  color: var(--text-dark);
+}
+
+.demo__thumb-label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #24ff00;
+  width: 60%;
+  height: 8px;
+  clip-path: polygon(10px 100%, calc(100% - 10px) 100%, 100% 0, 0 0);
+  z-index: 2;
+  font-size: clamp(0.188rem, 0.073rem + 0.49vw, 0.5rem);
+  font-weight: 700;
+}
+
+.demo__thumb::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  background-color: var(--text-dark);
+  z-index: 1;
+}
+/* demo slide */
+
+@media (min-width: 768px) {
+  .direction-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-block: 30px;
+  }
+
+  .direction-box .inner-box,
+  .direction-box .card-slider-wrapper {
+    order: 1;
+  }
+
+  .direction-box .check__form {
+    margin-inline: unset;
+  }
+
+  .inner-box .notify__block {
+    order: -1;
+  }
+
+  .direction-box .card-slider-wrapper,
+  .direction-box .order-form {
+    margin-inline: unset;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  .footer-logos {
+    margin-top: 0;
+  }
+}

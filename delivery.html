@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/new-style.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <title>delivery</title>
 </head>
@@ -230,154 +231,213 @@
         <!-- basket block end -->
     </header>
     <main class="container">
-        <!-- cards slider -->
-        <div class="card-slider-wrapper">
-
-            <div class="card-slider swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 1">
-                    </div>
-                    <!-- <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 2">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 3">
-                    </div> -->
-                </div>
-            </div>
-
-            <div class="card-slider-thumbs-wrapper">
-                <div class="card-slider-thumbs swiper">
-                    <div class="swiper-wrapper thumbs-block">
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 1">
+        <div class="direction-box">
+            <div class="inner-box">
+                <!-- cards slider -->
+                <div class="card-slider-wrapper">
+                    <div class="card-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="demo__slide">
+                                    <div class="demo__slide-left">
+                                        <div class="demo__logo"><img src="assets/img/id-logo.png" alt="logo"></div>
+                                        <div class="demo__company-name">Название компании</div>
+                                    </div>
+                                    <div class="demo__slide-right">
+                                        <div class="demo__person">
+                                            <div class="demo__name">ФИО</div>
+                                            <div class="demo__position">ДОЛЖНОСТЬ</div>
+                                        </div>
+                                        <div class="demo__info">
+                                            <div class="demo__contacts">
+                                                <div class="demo__phone">+374 0000000</div>
+                                                <div class="demo__phone">+374 0000000</div>
+                                                <div class="demo__email">E-mail</div>
+                                                <div class="demo__web">Web</div>
+                                                <div class="demo__address">Адрес</div>
+                                            </div>
+                                            <div class="demo__qr">
+                                                <img src="assets/img/id-logo.png" alt="QR-код" class="demo__qr-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 2">
+                    </div>
+
+                    <div class="card-slider-thumbs-wrapper">
+                        <div class="card-slider-thumbs swiper">
+                            <div class="swiper-wrapper thumbs-block">
+                                <div class="swiper-slide">
+                                    <div class="demo__thumb">
+                                        <div class="demo__thumb-top">
+                                            <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png"
+                                                    alt="QR-код" class="demo__qr-img"></div>
+                                            <div class="demo__thumb-company">Название компании</div>
+                                        </div>
+                                        <div class="demo__thumb-label">
+                                            <span class="visually-hidden">Label</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="demo__thumb">
+                                        <div class="demo__thumb-top">
+                                            <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png"
+                                                    alt="QR-код" class="demo__qr-img"></div>
+                                            <div class="demo__thumb-company">Название компании</div>
+                                        </div>
+                                        <div class="demo__thumb-label">
+                                            <span class="visually-hidden">Label</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="demo__thumb">
+                                        <div class="demo__thumb-top">
+                                            <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png"
+                                                    alt="QR-код" class="demo__qr-img"></div>
+                                            <div class="demo__thumb-company">Название компании</div>
+                                        </div>
+                                        <div class="demo__thumb-label">
+                                            <span class="visually-hidden">Label</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 3">
+
+                        <!-- arrows -->
+                        <div class="thumbs-nav thumbs-prev">&#10094;</div>
+                        <div class="thumbs-nav thumbs-next">&#10095;</div>
+                    </div>
+
+                    <div class="slides__view">
+                        <div class="slides__view-block slides__front">
+                            <div class="slides__view-icon view-active">
+                            </div>
+                            <button type="button" class="btn-reset slides_view-front"
+                                id="slides_view-front">передняя</button>
+                        </div>
+                        <div class="slides__view-block slides__back">
+                            <div class="slides__view-icon">
+                            </div>
+                            <button type="button" class="btn-reset slides_view-front"
+                                id="slides_view-back">задняя</button>
                         </div>
                     </div>
                 </div>
+                <!-- cards slider end -->
 
-                <!-- arrows -->
-                <div class="thumbs-nav thumbs-prev">&#10094;</div>
-                <div class="thumbs-nav thumbs-next">&#10095;</div>
-            </div>
-
-            <div class="slides__view">
-                <div class="slides__view-block slides__front">
-                    <div class="slides__view-icon view-active">
+                <!-- executor block -->
+                <div class="executor">
+                    <div class="executor__item">
+                        <span>Исполнитель:</span>
                     </div>
-                    <button type="button" class="btn-reset slides_view-front" id="slides_view-front">передняя</button>
-                </div>
-                <div class="slides__view-block slides__back">
-                    <div class="slides__view-icon">
+                    <div class="executor__item">
+                        <a href="#"><img src="assets/img/id-logo.png" alt="logo" class="executor__item-img"></a>
                     </div>
-                    <button type="button" class="btn-reset slides_view-front" id="slides_view-back">задняя</button>
                 </div>
-            </div>
-        </div>
-        <!-- cards slider end -->
+                <!-- executor block end-->
 
-        <!-- executor block -->
-        <div class="executor">
-            <div class="executor__item">
-                <span>Исполнитель:</span>
+                <!-- rating block -->
+                <div class="rating position-right">
+                    <div class="rating__item">
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-empty"></i>
+                    </div>
+                </div>
+                <!-- rating block end -->
             </div>
-            <div class="executor__item">
-                <a href="#"><img src="assets/img/id-logo.png" alt="logo" class="executor__item-img"></a>
-            </div>
-        </div>
-        <!-- executor block end-->
+            <div class="inner-box left-box">
+                <!-- status block -->
+                <div class="status">
+                    <h3 class="status__title">заказа N 556788</h3>
+                    <div class="status__info">
+                        <p class="status__row">
+                            <span class="status__label">Статус заказа:</span>
+                            <span class="status__value">ищу исполнителя</span>
+                        </p>
+                        <p class="status__row">
+                            <span class="status__label">Исполнитель:</span>
+                            <span class="status__loader-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
+                        <p class="status__row">
+                            <span class="status__label">Время исполнения:</span>
+                            <span class="status__value">……</span>
+                        </p>
+                    </div>
 
-        <!-- rating block -->
-        <div class="rating position-right">
-            <div class="rating__item">
-                <i class="icon-star-full"></i>
-                <i class="icon-star-full"></i>
-                <i class="icon-star-full"></i>
-                <i class="icon-star-full"></i>
-                <i class="icon-star-empty"></i>
-            </div>
-        </div>
-        <!-- rating block end -->
+                    <hr class="status__divider" />
 
-        <!-- status block -->
-        <div class="status">
-            <h3 class="status__title">заказа N 556788</h3>
-            <div class="status__info">
-                <p class="status__row">
-                    <span class="status__label">Статус заказа:</span>
-                    <span class="status__value">ищу исполнителя</span>
-                </p>
-                <p class="status__row">
-                    <span class="status__label">Исполнитель:</span>
-                    <span class="status__loader-dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </p>
-                <p class="status__row">
-                    <span class="status__label">Время исполнения:</span>
-                    <span class="status__value">……</span>
-                </p>
-            </div>
+                    <div class="status__description">
+                        <h3 class="status__title">Описание заказа</h3>
+                        <div class="status__description-block">
+                            <ul class="status__list">
+                                <li class="status__item">
+                                    <span class="status__item-label">Название:</span>
+                                    <span class="status__item-value">визитка</span>
+                                </li>
+                                <li class="status__item">
+                                    <span class="status__item-label">Стороны:</span>
+                                    <span class="status__item-value">2</span>
+                                </li>
+                                <li class="status__item">
+                                    <span class="status__item-label">Тираж:</span>
+                                    <span class="status__item-value">100 шт.</span>
+                                </li>
+                                <li class="status__item">
+                                    <span class="status__item-label">Размер:</span>
+                                    <span class="status__item-value">90×50</span>
+                                </li>
+                                <li class="status__item">
+                                    <span class="status__item-label">Материал:</span>
+                                    <span class="status__item-value">Бумага</span>
+                                </li>
+                            </ul>
+                            <div class="print-status">
+                                <img src="assets/img/print.png" alt="">
+                            </div>
+                        </div>
 
-            <hr class="status__divider" />
+                    </div>
 
-            <div class="status__description">
-                <h3 class="status__title">Описание заказа</h3>
-                <div class="status__description-block">
-                    <ul class="status__list">
-                        <li class="status__item">
-                            <span class="status__item-label">Название:</span>
-                            <span class="status__item-value">визитка</span>
-                        </li>
-                        <li class="status__item">
-                            <span class="status__item-label">Стороны:</span>
-                            <span class="status__item-value">2</span>
-                        </li>
-                        <li class="status__item">
-                            <span class="status__item-label">Тираж:</span>
-                            <span class="status__item-value">100 шт.</span>
-                        </li>
-                        <li class="status__item">
-                            <span class="status__item-label">Размер:</span>
-                            <span class="status__item-value">90×50</span>
-                        </li>
-                        <li class="status__item">
-                            <span class="status__item-label">Материал:</span>
-                            <span class="status__item-value">Бумага</span>
-                        </li>
-                    </ul>
-                    <div class="print-status">
-                        <img src="assets/img/print.png" alt="">
+                    <hr class="status__divider" />
+
+                    <div class="status__footer">
+                        <span class="status__price-label">Стоимость заказа:</span>
+                        <span class="status__price-value">640 Р</span>
                     </div>
                 </div>
 
-            </div>
+                <button type="button" class="btn-reset btn-main centered">ВЫБЕРИТЕ ПАРАМЕТР</button>
 
-            <hr class="status__divider" />
-
-            <div class="status__footer">
-                <span class="status__price-label">Стоимость заказа:</span>
-                <span class="status__price-value">640 Р</span>
+                <button type="button" class="check__form-button btn-reset">
+                    <span class="check__form-price">Цена: 640 ₽</span>
+                    <span class="check__form-action">Оплатить заказ</span>
+                </button>
             </div>
+            <!-- status block end -->
         </div>
-
-        <button type="button" class="btn-reset btn-main centered">ВЫБЕРИТЕ ПАРАМЕТР</button>
-
-        <button type="button" class="check__form-button btn-reset">
-            <span class="check__form-price">Цена: 640 ₽</span>
-            <span class="check__form-action">Оплатить заказ</span>
-        </button>
-        <!-- status block end -->
     </main>
+    <footer class="footer container">
+        <div class="footer-text">
+            <p><a href="#">Գաղտնիության քաղաքականություն</a> <a href="#">Պայմաններ և դրույթներ </a></p>
+            <p>2025 ID print Բոլոր իրավունքները պաշտպանված են։</p>
+        </div>
+        <div class="footer-logos">
+            <img src="assets/img/payment.png" alt="Mastercard">
+        </div>
+    </footer>
 </body>
 
 </html>

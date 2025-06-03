@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/new-style.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <title>order-sheet-mob</title>
 </head>
@@ -230,107 +231,153 @@
         <!-- basket block end -->
     </header>
     <main class="container">
-
-        <!-- cards slider -->
-        <div class="card-slider-wrapper">
-
-            <div class="card-slider swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 1">
-                    </div>
-                    <!-- <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 2">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="assets/img/card-slider-img.jpg" alt="Template 3">
-                    </div> -->
-                </div>
-            </div>
-
-            <div class="card-slider-thumbs-wrapper">
-                <div class="card-slider-thumbs swiper">
-                    <div class="swiper-wrapper thumbs-block">
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 1">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 2">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="assets/img/card-slider-thumb.jpg" alt="Thumb 3">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- arrows -->
-                <div class="thumbs-nav thumbs-prev">&#10094;</div>
-                <div class="thumbs-nav thumbs-next">&#10095;</div>
-            </div>
-
-            <div class="slides__view">
-                <div class="slides__view-block slides__front">
-                    <div class="slides__view-icon view-active">
-                    </div>
-                    <button type="button" class="btn-reset slides_view-front" id="slides_view-front">передняя</button>
-                </div>
-                <div class="slides__view-block slides__back">
-                    <div class="slides__view-icon">
-                    </div>
-                    <button type="button" class="btn-reset slides_view-front" id="slides_view-back">задняя</button>
-                </div>
-            </div>
-        </div>
-        <!-- cards slider end -->
-
-        <!-- location notify -->
-        <div class="notify__block">
-            <div class="notify__block-info">
-                <div class="notify__block-icon">
-                    <i class="icon-location"></i>
-                </div>
-                <div class="notify__block-text">
-                    <h3 class="notify__block-title">Мы вас не видим </h3>
-                    <p class="notify__block-text">уточните адрес или включите геолокацию</p>
-                </div>
-            </div>
-            <div class="notify__block-btns">
-                <button type="button" class="btn-reset btn-rounded btn-white">Ввести адрес</button>
-                <button type="button" class="btn-reset btn-rounded">Включить</button>
-            </div>
-
-        </div>
-        <!-- location notify end -->
-
-        <!-- check form -->
-        <form action="" class="check__form">
-            <h2 class="main-subtitle">Параметры</h2>
-            <div class="form__tab-block">
-                <button type="button" class="form__tab-row btn-reset">
-                    <span class="form__tab-label">Размер</span>
-                    <span class="form__tab-value-wrapper">
-                        <span class="form__tab-value">90</span>
-                        <i class="icon-arrow-up"></i>
-                    </span>
-                </button>
-                <div class="tab-options">
-
-                    <div class="tab-options__group">
-                        <p class="tab-options__title">Стороны:</p>
-                        <div class="tab-options__choices">
-                            <label class="tab-choice">
-                                <input type="radio" name="sides" value="one-sided" checked>
-                                <span class="tab-choice__label">Односторонняя</span>
-                            </label>
-                            <label class="tab-choice">
-                                <input type="radio" name="sides" value="two-sided">
-                                <span class="tab-choice__label">Двусторонняя</span>
-                            </label>
+        <div class="direction-box">
+            <div class="inner-box">
+                <!-- cards slider -->
+                <div class="card-slider-wrapper">
+                    <div class="card-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="demo__slide">
+                                    <div class="demo__slide-left">
+                                        <div class="demo__logo"><img src="assets/img/id-logo.png" alt="logo"></div>
+                                        <div class="demo__company-name">Название компании</div>
+                                    </div>
+                                    <div class="demo__slide-right">
+                                        <div class="demo__person">
+                                            <div class="demo__name">ФИО</div>
+                                            <div class="demo__position">ДОЛЖНОСТЬ</div>
+                                        </div>
+                                        <div class="demo__info">
+                                            <div class="demo__contacts">
+                                                <div class="demo__phone">+374 0000000</div>
+                                                <div class="demo__phone">+374 0000000</div>
+                                                <div class="demo__email">E-mail</div>
+                                                <div class="demo__web">Web</div>
+                                                <div class="demo__address">Адрес</div>
+                                            </div>
+                                            <div class="demo__qr">
+                                                <img src="assets/img/id-logo.png" alt="QR-код" class="demo__qr-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
+                    <div class="card-slider-thumbs-wrapper">
+                        <div class="card-slider-thumbs swiper">
+                            <div class="swiper-wrapper thumbs-block">
+                                <div class="swiper-slide">
+                                    <div class="demo__thumb">
+                                        <div class="demo__thumb-top">
+                                            <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png"
+                                                    alt="QR-код" class="demo__qr-img"></div>
+                                            <div class="demo__thumb-company">Название компании</div>
+                                        </div>
+                                        <div class="demo__thumb-label">
+                                            <span class="visually-hidden">Label</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="demo__thumb">
+                                        <div class="demo__thumb-top">
+                                            <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png"
+                                                    alt="QR-код" class="demo__qr-img"></div>
+                                            <div class="demo__thumb-company">Название компании</div>
+                                        </div>
+                                        <div class="demo__thumb-label">
+                                            <span class="visually-hidden">Label</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="demo__thumb">
+                                        <div class="demo__thumb-top">
+                                            <div class="demo__thumb-logo"> <img src="assets/img/id-logo.png"
+                                                    alt="QR-код" class="demo__qr-img"></div>
+                                            <div class="demo__thumb-company">Название компании</div>
+                                        </div>
+                                        <div class="demo__thumb-label">
+                                            <span class="visually-hidden">Label</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                    <!-- <div class="tab-options__group">
+                        <!-- arrows -->
+                        <div class="thumbs-nav thumbs-prev">&#10094;</div>
+                        <div class="thumbs-nav thumbs-next">&#10095;</div>
+                    </div>
+
+                    <div class="slides__view">
+                        <div class="slides__view-block slides__front">
+                            <div class="slides__view-icon view-active">
+                            </div>
+                            <button type="button" class="btn-reset slides_view-front"
+                                id="slides_view-front">передняя</button>
+                        </div>
+                        <div class="slides__view-block slides__back">
+                            <div class="slides__view-icon">
+                            </div>
+                            <button type="button" class="btn-reset slides_view-front"
+                                id="slides_view-back">задняя</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- cards slider end -->
+
+                <!-- location notify -->
+                <div class="notify__block">
+                    <div class="notify__block-info">
+                        <div class="notify__block-icon">
+                            <i class="icon-location"></i>
+                        </div>
+                        <div class="notify__block-text">
+                            <h3 class="notify__block-title">Мы вас не видим </h3>
+                            <p class="notify__block-text">уточните адрес или включите геолокацию</p>
+                        </div>
+                    </div>
+                    <div class="notify__block-btns">
+                        <button type="button" class="btn-reset btn-rounded btn-white">Ввести адрес</button>
+                        <button type="button" class="btn-reset btn-rounded">Включить</button>
+                    </div>
+
+                </div>
+                <!-- location notify end -->
+            </div>
+            <!-- check form -->
+            <form action="" class="check__form">
+                <h2 class="main-subtitle">Параметры</h2>
+                <div class="form__tab-block">
+                    <button type="button" class="form__tab-row btn-reset">
+                        <span class="form__tab-label">Размер</span>
+                        <span class="form__tab-value-wrapper">
+                            <span class="form__tab-value">90</span>
+                            <i class="icon-arrow-up"></i>
+                        </span>
+                    </button>
+                    <div class="tab-options">
+
+                        <div class="tab-options__group">
+                            <p class="tab-options__title">Стороны:</p>
+                            <div class="tab-options__choices">
+                                <label class="tab-choice">
+                                    <input type="radio" name="sides" value="one-sided" checked>
+                                    <span class="tab-choice__label">Односторонняя</span>
+                                </label>
+                                <label class="tab-choice">
+                                    <input type="radio" name="sides" value="two-sided">
+                                    <span class="tab-choice__label">Двусторонняя</span>
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="tab-options__group">
                         <p class="tab-options__title">Материал:</p>
                         <div class="tab-options__choices">
                             <label class="tab-choice">
@@ -343,117 +390,127 @@
                             </label>
                         </div>
                     </div> -->
-                    <div class="tab-options__group">
-                        <p class="tab-options__title">Материал:</p>
-                        <div class="tab-options__choices">
+                        <div class="tab-options__group">
+                            <p class="tab-options__title">Материал:</p>
+                            <div class="tab-options__choices">
 
-                            <!-- Пластик (радио) -->
-                            <label class="tab-choice">
-                                <input type="radio" name="material" value="plastic" checked>
-                                <span class="tab-choice__label">Пластик</span>
-                            </label>
+                                <!-- Пластик (радио) -->
+                                <label class="tab-choice">
+                                    <input type="radio" name="material" value="plastic" checked>
+                                    <span class="tab-choice__label">Пластик</span>
+                                </label>
 
-                            <!-- Бумага (select) -->
-                            <div class="tab-choice tab-choice--select">
-                                <!-- <label class="tab-choice__label" for="material-paper">Бумага</label> -->
-                                <select name="material-paper" id="material-paper"
-                                    class="tab-choice__select choice__label">
-                                    <option value="">Бумага</option>
-                                    <option value="250">250 грам</option>
-                                    <option value="260">260 грам</option>
-                                    <option value="270">270 грам</option>
-                                    <option value="280">280 грам</option>
-                                </select>
+                                <!-- Бумага (select) -->
+                                <div class="tab-choice tab-choice--select">
+                                    <!-- <label class="tab-choice__label" for="material-paper">Бумага</label> -->
+                                    <select name="material-paper" id="material-paper"
+                                        class="tab-choice__select choice__label">
+                                        <option value="">Бумага</option>
+                                        <option value="250">250 грам</option>
+                                        <option value="260">260 грам</option>
+                                        <option value="270">270 грам</option>
+                                        <option value="280">280 грам</option>
+                                    </select>
+                                </div>
+
                             </div>
-
                         </div>
+
                     </div>
 
+                    <button type="button" class="form__tab-row btn-reset">
+                        <span class="form__tab-label">Стороны</span>
+                        <span class="form__tab-value-wrapper">
+                            <span class="form__tab-value">Односторонняя</span>
+                            <i class="icon-arrow-up"></i>
+                        </span>
+                    </button>
+
+                    <button type="button" class="form__tab-row btn-reset">
+                        <span class="form__tab-label">Материал:</span>
+                        <span class="form__tab-value-wrapper">
+                            <span class="form__tab-value">пластик</span>
+                            <i class="icon-arrow-up"></i>
+                        </span>
+                    </button>
+
+                </div>
+                <label class="check-option">
+                    <span class="check-option__text">Скруглённые углы +10%</span>
+                    <input type="checkbox" class="check-option__input">
+                    <span class="check-option__box"></span>
+                </label>
+                <div class="check__form-info">
+                    Тираж/покет:
+                </div>
+                <!-- price table -->
+                <div class="price-table">
+                    <div class="price-table__header">
+                        <div class="price-table__cell"></div>
+                        <div class="price-table__cell">Кол-во</div>
+                        <div class="price-table__cell">Цена</div>
+                        <div class="price-table__cell">Готовность</div>
+                    </div>
+
+                    <label class="price-table__row">
+                        <input type="radio" name="quantity" class="price-table__radio" />
+                        <span class="price-table__cell">100</span>
+                        <span class="price-table__cell">640 ₽</span>
+                        <span class="price-table__cell">14.02.2025</span>
+                    </label>
+
+                    <label class="price-table__row">
+                        <input type="radio" name="quantity" class="price-table__radio" />
+                        <span class="price-table__cell">200</span>
+                        <span class="price-table__cell">1200 ₽</span>
+                        <span class="price-table__cell">14.02.2025</span>
+                    </label>
+
+                    <label class="price-table__row">
+                        <input type="radio" name="quantity" class="price-table__radio" />
+                        <span class="price-table__cell">300</span>
+                        <span class="price-table__cell">2350 ₽</span>
+                        <span class="price-table__cell">14.02.2025</span>
+                    </label>
+
+                    <label class="price-table__row">
+                        <input type="radio" name="quantity" class="price-table__radio" />
+                        <span class="price-table__cell">400</span>
+                        <span class="price-table__cell">2350 ₽</span>
+                        <span class="price-table__cell">14.02.2025</span>
+                    </label>
+
+                    <label class="price-table__row">
+                        <input type="radio" name="quantity" class="price-table__radio" />
+                        <span class="price-table__cell">500</span>
+                        <span class="price-table__cell">2350 ₽</span>
+                        <span class="price-table__cell">14.02.2025</span>
+                    </label>
                 </div>
 
-                <button type="button" class="form__tab-row btn-reset">
-                    <span class="form__tab-label">Стороны</span>
-                    <span class="form__tab-value-wrapper">
-                        <span class="form__tab-value">Односторонняя</span>
-                        <i class="icon-arrow-up"></i>
-                    </span>
+                <label class="check-option centered">
+                    <span class="check-option__text">экспрес печать за 3 чеса +15%</span>
+                    <input type="checkbox" class="check-option__input">
+                    <span class="check-option__box"></span>
+                </label>
+
+                <button type="button" class="check__form-button btn-reset">
+                    <span class="check__form-price">Цена: 640 ₽</span>
+                    <span class="check__form-action">Оплатить заказ</span>
                 </button>
-
-                <button type="button" class="form__tab-row btn-reset">
-                    <span class="form__tab-label">Материал:</span>
-                    <span class="form__tab-value-wrapper">
-                        <span class="form__tab-value">пластик</span>
-                        <i class="icon-arrow-up"></i>
-                    </span>
-                </button>
-
-            </div>
-            <label class="check-option">
-                <span class="check-option__text">Скруглённые углы +10%</span>
-                <input type="checkbox" class="check-option__input">
-                <span class="check-option__box"></span>
-            </label>
-            <div class="check__form-info">
-                Тираж/покет:
-            </div>
-            <!-- price table -->
-            <div class="price-table">
-                <div class="price-table__header">
-                    <div class="price-table__cell"></div>
-                    <div class="price-table__cell">Кол-во</div>
-                    <div class="price-table__cell">Цена</div>
-                    <div class="price-table__cell">Готовность</div>
-                </div>
-
-                <label class="price-table__row">
-                    <input type="radio" name="quantity" class="price-table__radio" />
-                    <span class="price-table__cell">100</span>
-                    <span class="price-table__cell">640 ₽</span>
-                    <span class="price-table__cell">14.02.2025</span>
-                </label>
-
-                <label class="price-table__row">
-                    <input type="radio" name="quantity" class="price-table__radio" />
-                    <span class="price-table__cell">200</span>
-                    <span class="price-table__cell">1200 ₽</span>
-                    <span class="price-table__cell">14.02.2025</span>
-                </label>
-
-                <label class="price-table__row">
-                    <input type="radio" name="quantity" class="price-table__radio" />
-                    <span class="price-table__cell">300</span>
-                    <span class="price-table__cell">2350 ₽</span>
-                    <span class="price-table__cell">14.02.2025</span>
-                </label>
-
-                <label class="price-table__row">
-                    <input type="radio" name="quantity" class="price-table__radio" />
-                    <span class="price-table__cell">400</span>
-                    <span class="price-table__cell">2350 ₽</span>
-                    <span class="price-table__cell">14.02.2025</span>
-                </label>
-
-                <label class="price-table__row">
-                    <input type="radio" name="quantity" class="price-table__radio" />
-                    <span class="price-table__cell">500</span>
-                    <span class="price-table__cell">2350 ₽</span>
-                    <span class="price-table__cell">14.02.2025</span>
-                </label>
-            </div>
-
-            <label class="check-option centered">
-                <span class="check-option__text">экспрес печать за 3 чеса +15%</span>
-                <input type="checkbox" class="check-option__input">
-                <span class="check-option__box"></span>
-            </label>
-
-            <button type="button" class="check__form-button btn-reset">
-                <span class="check__form-price">Цена: 640 ₽</span>
-                <span class="check__form-action">Оплатить заказ</span>
-            </button>
-        </form>
-        <!-- check form end -->
+            </form>
+            <!-- check form end -->
+        </div>
     </main>
+    <footer class="footer container">
+        <div class="footer-text">
+            <p><a href="#">Գաղտնիության քաղաքականություն</a> <a href="#">Պայմաններ և դրույթներ </a></p>
+            <p>2025 ID print Բոլոր իրավունքները պաշտպանված են։</p>
+        </div>
+        <div class="footer-logos">
+            <img src="assets/img/payment.png" alt="Mastercard">
+        </div>
+    </footer>
 </body>
 
 </html>
