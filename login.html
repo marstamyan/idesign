@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- login  -->
+    <div class="login-modal login-modal--active container">
+        <div class="login-modal__content">
+            <button class="login-modal__close"><img src="assets/icons/close.svg" alt="close"></button>
+            <div class="login-modal__logo">
+                <img src="assets/icons/logo-black.svg" alt="logo">
+            </div>
+            <form class="login-modal__form">
+                <input type="text" class="login-modal__input" placeholder="User" required>
+                <input type="password" class="login-modal__input" placeholder="password" required>
+                <label class="login-modal__remember">
+                    <span>Запомнить меня</span>
+                    <input type="checkbox">
+                </label>
+                <button type="submit" class="btn-reset login-modal__btn">Войти</button>
+                <a href="#" class="login-modal__link">зарегистрироваться</a>
+            </form>
+        </div>
+    </div>
+    <!-- login end -->
+
+    <!-- geo -->
+    <div class="geo-modal geo-modal--active1 container">
+        <div class="geo-modal__backdrop"></div>
+        <div class="geo-modal__content">
+            <button class="geo-modal__close">
+                <img src="assets/icons/close.svg" alt="close">
+            </button>
+            <h2 class="geo-modal__title">Кому вручит посылку?</h2>
+
+            <form class="geo-modal__form">
+                <div class="geo-modal__field">
+                    <input type="tel" placeholder="Телефон" required>
+                    <span class="geo-modal__icon">
+                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.8215 14.6878L13.2121 15.6105C10.0986 13.9961 8.1753 12.1415 7.05601 9.25068L7.91781 4.4749L6.28876 0H2.09041C0.82836 0 -0.165465 1.07745 0.0230227 2.36665C0.493582 5.5851 1.88103 11.4205 5.93673 15.6105C10.1958 20.0106 16.3301 21.92 19.7062 22.6789C21.0099 22.972 22.1664 21.9212 22.1664 20.5429V16.3982L17.8215 14.6878Z"
+                                fill="#877F7F" />
+                        </svg>
+                    </span>
+                </div>
+
+                <div class="geo-modal__field">
+                    <input type="text" placeholder="Адрес" required>
+                    <span class="geo-modal__icon">
+                        <svg width="19" height="30" viewBox="0 0 19 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="9.5" cy="9.5" r="8" fill="white" stroke="#8F8F8F" stroke-width="3" />
+                            <rect x="8" y="17" width="4" height="13" fill="#8F8F8F" />
+                        </svg>
+                    </span>
+                </div>
+
+                <input type="text" placeholder="Квартира, Офис">
+                <input type="text" placeholder="Этаж">
+            </form>
+        </div>
+    </div>
+    <!-- geo end -->
+</body>
+
+</html>
