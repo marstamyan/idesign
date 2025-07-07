@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fixes-style.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Payment Done</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <!-- payment done -->
+        <div class="payment-done">
+            <div class="payment-done__title">
+                <span class="payment-done__icon"><svg width="36" height="34" viewBox="0 0 36 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19.1458" cy="17.4009" r="16.0235" stroke="#0871FA" stroke-width="0.784653" />
+                        <path d="M19.4558 28.2414L28.7478 18.0203L19.4558 22.976L0.252441 5.32129L19.4558 28.2414Z"
+                            fill="#0871FA" />
+                    </svg></span>
+                <span class="payment-done__status">УСПЕШНАЯ ОПЛАТА</span>
+            </div>
+
+            <div class="payment-done__info">
+                <p class="payment-done__line"><strong>Исполнитель:</strong> <span>Идеал дизайн ООО</span></p>
+                <p class="payment-done__line"><strong>ИНН:</strong> <span>48574985734943943</span></p>
+                <p class="payment-done__line"><strong>Адрес:</strong> <span>Давид Анаxт 8/10</span></p>
+            </div>
+
+            <hr class="shadow-hr">
+
+            <div class="payment-done__section-title">Описание заказа</div>
+            <div class="payment-done__order">
+                <div class="payment-done__details">
+                    <p><strong>Название:</strong> <span>визитка</span></p>
+                    <p><strong>Стороны:</strong> <span>2</span></p>
+                    <p><strong>Тираж:</strong> <span>100 шт.</span></p>
+                    <p><strong>Размер:</strong> <span>90x50</span></p>
+                    <p><strong>Материал:</strong> <span>Бумага</span></p>
+                </div>
+                <div class="payment-done__qr">
+                    <img src="assets/img/qr.png" alt="QR Code" class="payment-done__qr-img" />
+                </div>
+            </div>
+
+            <hr class="shadow-hr">
+
+            <div class="payment-done__summary">
+                <p><strong>Стоимость заказа:</strong> <span>640 Р</span></p>
+                <p><strong>Доставка:</strong> <span>300 Р</span></p>
+                <hr class="shadow-hr">
+                <p class="payment-done__total"><strong>ИТОГО:</strong> <span>940 Р</span></p>
+            </div>
+        </div>
+        <!-- payment done end -->
+
+        <!-- Pickup block -->
+        <div class="pickup-block">
+            <div class="pickup-options">
+                <div class="pickup-options__list">
+                    <div class="pickup-options__item">
+                        <span class="pickup-options__circle pickup-options__circle--red"></span>
+                        <span class="pickup-options__address">квартал Чаренц, 10</span>
+                    </div>
+                    <div class="pickup-options__item">
+                        <span class="pickup-options__circle pickup-options__circle--gray"></span>
+                        <span class="pickup-options__address">
+                            ул. Давида Анаxта 8/14 <span class="pickup-options__time">• 12 мин</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="pickup-block__btns">
+                <button class="check__form-button btn-reset">САМОВЫВОЗ</button>
+                <button class="check__form-button btn-reset">
+                    <span class="pickup__form-price">300₽</span>
+                    <span class="pickup__form-text">Заказать доставку</span>
+                </button>
+            </div>
+        </div>
+        <!-- Pickup block -->
+    </main>
+</body>
+
+</html>
