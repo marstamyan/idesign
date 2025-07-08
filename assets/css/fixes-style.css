@@ -237,6 +237,10 @@
   padding: 6px 16px;
 }
 
+.check-option {
+  justify-content: space-between;
+}
+
 .check-option__box {
   flex-shrink: 0;
 }
