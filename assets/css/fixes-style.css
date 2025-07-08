@@ -64,6 +64,7 @@
   margin-bottom: 10px;
 }
 
+.payment-done__line span,
 .payment-done__order span {
   word-break: break-word;
 }
@@ -202,6 +203,8 @@
   .pickup-block button {
     height: 40px;
     font-size: 12px;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .pickup-block button:first-child {
